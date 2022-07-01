@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * main is my enty point
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
