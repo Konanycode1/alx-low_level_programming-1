@@ -14,7 +14,7 @@ for (nbr1 = 0; nbr1 < 8; nbr1++)
 {
 	for (nbr2 = nbr1 + 1; nbr2 < 9; nbr2++)
 	{
-		for (nbr3 = nbr2 + 1; nbr3 < 10; nbr++)
+		for (nbr3 = nbr2 + 1; nbr3 < 10; nbr3++)
 		{
 			putchar((nbr1 % 10) + '0');
 			putchar((nbr2 % 10) + '0');
