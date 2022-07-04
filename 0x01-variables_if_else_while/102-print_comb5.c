@@ -14,7 +14,7 @@ for (nbr1 = 0; nbr1 <= 98; nbr1++)
 	for (nbr2 = 0; nbr2 <= 99; nbr2++)
 	{
 		putchar((nbr1 / 10) + '0');
-		putchar((nbr % 10) + '0');
+		putchar((nbr1 % 10) + '0');
 		putch(' ');
 		putchar((nbr2 / 10) + '0');
 		putchar((nbr2 % 10) + '0');
