@@ -11,7 +11,7 @@ int main(void)
 int nbr1, nbr2;
 for (nbr1 = 0; nbr1 <= 98; nbr1++)
 {
-	for (nbr2 = 0; nbr2 <= 99; nbr2++)
+	for (nbr2 = nbr1 + 1; nbr2 <= 99; nbr2++)
 	{
 		putchar((nbr1 / 10) + '0');
 		putchar((nbr1 % 10) + '0');
