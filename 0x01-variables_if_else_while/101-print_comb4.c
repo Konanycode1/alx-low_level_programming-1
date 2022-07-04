@@ -19,7 +19,7 @@ for (nbr1 = 0; nbr1 < 8; nbr1++)
 			putchar((nbr1 % 10) + '0');
 			putchar((nbr2 % 10) + '0');
 			putchar((nbr3 % 10) + '0');
-			if (nbr1 == 7 && nbr2 == 8 && nbr3 == 8)
+			if (nbr1 == 7 && nbr2 == 8 && nbr3 == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
