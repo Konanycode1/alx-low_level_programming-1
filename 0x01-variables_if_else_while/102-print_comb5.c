@@ -18,8 +18,7 @@ for (nbr1 = 0; nbr1 <= 98; nbr1++)
 		putchar(' ');
 		putchar((nbr2 / 10) + '0');
 		putchar((nbr2 % 10) + '0');
-		
-		if (nbr1 ==98 && nbr2 == 99)
+		if (nbr1 == 98 && nbr2 == 99)
 			continue;
 		putchar(',');
 		putchar(' ');
