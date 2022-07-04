@@ -11,7 +11,8 @@ int main(void)
 {
 int nbr1, nbr2, nbr3;
 for (nbr1 = 0; nbr1 < 8; nbr1++)
-{	for (nbr2 = nbr1 + 1; nbr2 < 9; nbr2++)
+{
+	for (nbr2 = nbr1 + 1; nbr2 < 9; nbr2++)
 	{
 		for (nbr3 = nbr2 + 1; nbr3 < 10; nbr++)
 		{
