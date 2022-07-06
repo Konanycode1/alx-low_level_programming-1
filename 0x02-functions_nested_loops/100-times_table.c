@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * print_times_tables - function that print the n times table 
- * @n: is number of the time table 
- * Return: 0 
+ * print_times_table - function that print the n times table
+ * @n: is number of the time table
+ * Return: 0
  */
+
 void print_times_table(int n)
 {
 	int i, j, k;
@@ -15,7 +17,6 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				k = j * i;
-				
 				if (j == 0)
 				{
 					_putchar(k + '0');
