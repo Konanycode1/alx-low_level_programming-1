@@ -21,7 +21,7 @@ void jack_bauer(void)
 			_putchar(hours / 10 + '0');
 			_putchar(hours_remaider + '0');
 			_putchar(':');
-			_putchar(monutes / 10 + '0');
+			_putchar(minutes / 10 + '0');
 			_putchar(mins_remaider + '0');
 			minutes++;
 			_putchar('\n');
