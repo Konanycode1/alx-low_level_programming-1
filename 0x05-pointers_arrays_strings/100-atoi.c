@@ -12,7 +12,7 @@ int _atoi(char *s)
 	unsigned int num;
 	char *tmp;
 
-	temp = s;
+	tmp = s;
 	num = 0;
 	sign = 1;
 	while (*tmp != '\0' && (*tmp < '0' || *tmp > '9'))
