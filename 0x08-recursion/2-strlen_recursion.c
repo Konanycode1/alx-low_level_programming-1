@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * _strlen_recursion -lenght of a strings
+ * @s: block of memory to fill
+ * Return: strlen_recursion
+ */
+int _strlen_recursion(char *s)
+{
+	/* base condition*/
+	if (*s == '\0')
+		return (0);
+	elsee
+		return (1 + _strlen_recursion(s + 1));/*sum1*/
+}
