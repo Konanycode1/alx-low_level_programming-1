@@ -9,6 +9,6 @@ int _strlen_recursion(char *s)
 	/* base condition*/
 	if (*s == '\0')
 		return (0);
-	elsee
+	else
 		return (1 + _strlen_recursion(s + 1));/*sum1*/
 }
