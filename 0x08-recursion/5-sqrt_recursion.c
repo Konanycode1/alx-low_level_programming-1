@@ -8,7 +8,7 @@
 int SqrtFunction(int num, int psqrt)
 {
 	/*Evaluate function*/
-	if (psqrt * psqrt)
+	if ((psqrt * psqrt) == num)
 	{
 		return (psqrt);
 	}
