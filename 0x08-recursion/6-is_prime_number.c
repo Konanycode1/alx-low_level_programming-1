@@ -16,7 +16,7 @@ int HelpFunction(int num, int i)
 		}
 		else
 		{
-			return (SqrtFunction(num, i + 1));
+			return (HelpFunction(num, i + 1));
 		}
 	}
 }
