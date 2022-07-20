@@ -19,6 +19,10 @@ int HelpFunction(int num, int i)
 			return (HelpFunction(num, i + 1));
 		}
 	}
+	else
+	{
+		return (1);
+	}
 }
 /**
  * is_prime_number - return the natural square root of a number.
